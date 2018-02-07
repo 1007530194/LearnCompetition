@@ -169,7 +169,7 @@ def train(y):
         model=_LSTMModel(num_features=1, num_units=128)
         # , optimizer=tf.train.AdamOptimizer(0.0025)
         , optimizer=tf.train.AdagradOptimizer(0.0025)
-        , optimizer=tf.train.FtrlOptimizer(0.0025)
+        # , optimizer=tf.train.FtrlOptimizer(0.0025)
         # , optimizer=tf.train.AdadeltaOptimizer(0.0025)
     )
 
